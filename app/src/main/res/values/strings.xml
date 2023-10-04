@@ -21,7 +21,7 @@
     <string name="content_txt_icon_image_for_background_dzikir">Icon image for Background Dzikir</string>
     <string name="content_txt_image_artikel">Image Poster Detail Artikel</string>
 
-    <string-array name="arr_img_artikel">
+    <integer-array name="arr_img_artikel">
         <item>@drawable/artikel_1</item>
         <item>@drawable/bg_artikel</item>
         <item>@drawable/artikel_1</item>
@@ -30,7 +30,7 @@
         <item>@drawable/bg_artikel</item>
         <item>@drawable/artikel_1</item>
         <item>@drawable/bg_artikel</item>
-    </string-array>
+    </integer-array>
 
     <string-array name="arr_title_artikel">
         <item>Sedekah Adalah Bukti Keimanan</item>
