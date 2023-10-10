@@ -13,23 +13,33 @@
         android:theme="@style/Theme.BelajarDoaDanDzikirApp"
         tools:targetApi="31">
         <activity
+            android:name=".ui.detail.DetailArtikelActivity"
+            android:exported="false"
+            android:theme="@style/Theme.BelajarDoaDanDzikirApp.actionbar"/>
+        <activity
             android:name=".ui.detail.DzikirPetangActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:theme="@style/Theme.BelajarDoaDanDzikirApp.actionbar"/>
         <activity
             android:name=".ui.detail.DzikirPagiActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:theme="@style/Theme.BelajarDoaDanDzikirApp.actionbar"/>
         <activity
             android:name=".ui.DzikirPagiDanPetangActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:theme="@style/Theme.BelajarDoaDanDzikirApp.actionbar"/>
         <activity
             android:name=".ui.DzikirDanDoaHarianActivity"
-            android:exported="false" />
+            android:theme="@style/Theme.BelajarDoaDanDzikirApp.actionbar"
+            android:exported="false"/>
         <activity
             android:name=".ui.DzikirSetiapSaatActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:theme="@style/Theme.BelajarDoaDanDzikirApp.actionbar"/>
         <activity
             android:name=".ui.SunnahQouliyahActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:theme="@style/Theme.BelajarDoaDanDzikirApp.actionbar"/>
         <activity
             android:name=".MainActivity"
             android:exported="true"

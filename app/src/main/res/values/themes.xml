@@ -13,4 +13,5 @@
     </style>
 
     <style name="Theme.BelajarDoaDanDzikirApp" parent="Base.Theme.BelajarDoaDanDzikirApp" />
+    <style name="Theme.BelajarDoaDanDzikirApp.actionbar" parent="Theme.Material3.DayNight"/>
 </resources>

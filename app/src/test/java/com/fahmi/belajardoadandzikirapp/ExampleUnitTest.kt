@@ -1,4 +1,4 @@
-package com.rival.belajardoadandzikirapp
+package com.fahmi.belajardoadandzikirapp
 
 import org.junit.Test
 

@@ -1,4 +1,4 @@
-package com.rival.belajardoadandzikirapp.model
+package com.fahmi.belajardoadandzikirapp.model
 
 import android.os.Parcelable
 import kotlinx.parcelize.Parcelize

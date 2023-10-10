@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-    namespace = "com.rival.belajardoadandzikirapp"
+    namespace = "com.fahmi.belajardoadandzikirapp"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.rival.belajardoadandzikirapp"
+        applicationId = "com.fahmi.belajardoadandzikirapp"
         minSdk = 24
         targetSdk = 34
         versionCode = 1
@@ -48,11 +48,10 @@ dependencies {
     testImplementation("junit:junit:4.13.2")
     androidTestImplementation("androidx.test.ext:junit:1.1.5")
     androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
-// Support Library to install splashscreen in activity
+    // Support Library to install splashscreen in activity
     implementation ("androidx.activity:activity-compose:1.7.2")
     // SplashScreen API 12
     implementation("androidx.core:core-splashscreen:1.0.1")
-    // Glide
-    //glide
+    //Glide
     implementation ("com.github.bumptech.glide:glide:4.16.0")
 }
